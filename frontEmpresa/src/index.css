@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.controle-formulario{
+
+  width: 100%;
+ 
+}
+
+
+.error-message{
+  width: 100px;
+  height: 100px;
+
+}
+
+
+.filtragem-cliente{
+  display: flex;  
+}
+
+@media screen and (max-width:675px) {
+  .filtragem-cliente{
+    flex-wrap: wrap;
+  }
+}
+
+.container-filter{
+  height: 100%;
+}
+
+.App{
+  margin-top: 100px;
+  border: 1px solid gray;
+  padding: 20px;
+ 
+}
+
+span{
+  font-weight: 600 ;
+}
+
+.botao-calRota{
+  width: 100%;  
+}
